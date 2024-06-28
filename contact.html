@@ -1,0 +1,129 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <script src="https://kit.fontawesome.com/c32adfdcda.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+<style>
+body {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+body::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+</style>  
+</head>
+<body>
+  <section>
+    
+    <div class="section-header">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>Got any questions or suggestions? Fill out this form to reach out</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        
+        <div class="contact-info">
+          <div class="contact-info-item">
+            <div class="contact-info-icon">
+              <i class="fas fa-home"></i>
+            </div>
+            
+            <div class="contact-info-content">
+              <h4>Address</h4>
+              <p>Rumah Kanak-Kanak <br>Datuk Ajibah Abol,<br>KM5 Jalan Sabu, <br>95000 Sri Aman Sarawak</p>
+            </div>
+          </div>
+          
+          <div class="contact-info-item">
+            <div class="contact-info-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            
+            <div class="contact-info-content">
+              <h4>Phone</h4>
+              <p>083-323602</p>
+            </div>
+          </div>
+          
+          <div class="contact-info-item">
+            <div class="contact-info-icon">
+              <i class="fas fa-fax"></i>
+            </div>
+            
+            <div class="contact-info-content">
+              <h4>Fax</h4>
+              <p>083-324042</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="contact-form">
+          <form action="https://api.web3forms.com/submit" method="POST" id="contact-form">
+            <h2>Send Message</h2>
+            <input type="hidden" name="access_key" value="d2fa05cd-a709-4bd3-acc7-d6908b4f2c57">
+            <div class="input-box">
+              <input type="text" required name="name">
+              <span>Full Name</span>
+            </div>
+            
+            <div class="input-box">
+              <input type="email" required name="email">
+              <span>Email</span>
+            </div>
+            
+            <div class="input-box">
+              <textarea required name="message"></textarea>
+              <span>Type your Message...</span>
+            </div>
+            
+            <div class="input-box">
+              <input type="submit" value="Send">
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="social-media">
+        <h3>Social Media Links</h3>
+        <div class="social-media-icons">
+          <a href="https://www.facebook.com/profile.php?id=100094822862673&mibextid=LQQJ4d" target="_blank" class="social-link">
+            <i class="fab fa-facebook-f"></i> Facebook
+          </a>
+          <a href="https://welfare.sarawak.gov.my/web/subpage/webpage_view/83" target="_blank" class="social-link">
+            <i class="fas fa-globe"></i> Welfare (Jabatan Kebajikan Website)
+          </a>
+	  <a href="index.html" target="_blank" class="social-link">
+            </i> Main Page
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <footer>
+    <p>Rumah Kanak-Kanak Datuk Ajibah Abol&copy; 2024. All Rights Reserved.</p>
+  </footer>
+  
+</body>
+</html>
